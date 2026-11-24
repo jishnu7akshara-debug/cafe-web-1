@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 — Page Not Found | Ember Crema</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Instrument+Sans:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .error-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: radial-gradient(circle at 50% 30%, #3a2218 0%, #170d09 100%);
+    color: #f7ede2;
+  }
+  .error-code {
+    font-family: 'Bricolage Grotesque', serif;
+    font-size: clamp(5rem, 15vw, 10rem);
+    font-weight: 800;
+    line-height: 1;
+    color: #e3a857;
+    margin: 0;
+    letter-spacing: -0.04em;
+  }
+  .error-title {
+    font-family: 'Bricolage Grotesque', serif;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin: 1rem 0 0.5rem;
+    color: #fff;
+  }
+  .error-desc {
+    max-width: 440px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #c9b19e;
+    margin: 0 auto 2rem;
+  }
+  .error-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<main class="error-page">
+  <p class="error-code">404</p>
+  <h1 class="error-title">This cup was poured empty</h1>
+  <p class="error-desc">The page you're looking for doesn't exist or may have been moved. Let's get you back to fresh coffee.</p>
+  <div class="error-actions">
+    <a class="btn btn-brass" href="/">Return to Café</a>
+    <a class="btn btn-ghost" href="/#menu">View Menu</a>
+  </div>
+</main>
+</body>
+</html>
