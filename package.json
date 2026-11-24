@@ -1,9 +1,0 @@
-{
-  "name": "ember-crema",
-  "version": "1.0.0",
-  "description": "Ember Crema - Specialty Coffee Roastery & Café Website",
-  "scripts": {
-    "start": "node server.js",
-    "build": "echo 'Static build ready'"
-  }
-}
